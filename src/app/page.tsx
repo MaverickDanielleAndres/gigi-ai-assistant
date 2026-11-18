@@ -25,7 +25,7 @@ export default function Home() {
       <div className="hero__eyebrow"><span className="eyebrow-line" /> A NEW SPACE TO THINK</div>
       <div className="hero__grid">
         <div className="hero__title-block"><p className="hero__italic">Let curiosity</p><h1 id="hero-title">TAKE<br /><span>SHAPE.</span></h1></div>
-        <div className="hero__visual"><Orb hero /><div className="hero__visual-label">FIG 01. / SIGNAL VESSEL</div></div>
+        <div className="hero__visual"><Orb hero /><div className="hero__visual-label">FIG 01. / GIGI</div></div>
         <div className="hero__aside"><span className="hero__index">[ 001 — 007 ]</span><p>Speak. Show. Explore.<br />A more fluid way to move from a question to something useful.</p><Link className="button button--light" href="/app" prefetch={false}>Enter the assistant <ArrowRight size={18} /></Link><span className="hero__note">No account required · Public demo</span></div>
       </div>
       <div className="hero__bottom"><span>AN INTERFACE FOR IDEAS IN MOTION</span><a href="#capabilities" aria-label="Scroll to capabilities">SCROLL TO EXPLORE <ArrowDownRight size={17} /></a></div>

@@ -9,17 +9,17 @@ const mono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "500", "600"], 
 
 export const metadata: Metadata = {
   metadataBase: siteUrl(),
-  title: "Signal Vessel — Think out loud",
+  title: "GIGI — Think out loud",
   description: "An experimental voice, vision and research assistant. Ask, explore and make something useful.",
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Signal Vessel — Think out loud",
+    title: "GIGI — Think out loud",
     description: "A cinematic multimodal assistant for voice, vision and ideas.",
     type: "website",
     url: "/",
   },
-  twitter: { card: "summary_large_image", title: "Signal Vessel — Think out loud", description: "A cinematic multimodal assistant for voice, vision and ideas." },
+  twitter: { card: "summary_large_image", title: "GIGI — Think out loud", description: "A cinematic multimodal assistant for voice, vision and ideas." },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

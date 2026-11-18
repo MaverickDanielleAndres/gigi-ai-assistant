@@ -3,7 +3,7 @@ import { Redis } from "@upstash/redis";
 import { serverConfig } from "./config";
 import { consumeQuota, quotaPlan } from "./quota";
 
-const cookieName = "sv_session";
+const cookieName = "gigi_session";
 export const redis = serverConfig.redisUrl && serverConfig.redisToken ? new Redis({ url: serverConfig.redisUrl, token: serverConfig.redisToken }) : null;
 
 function sign(value: string) { return createHmac("sha256", serverConfig.signingSecret).update(value).digest("hex"); }

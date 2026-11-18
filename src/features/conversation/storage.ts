@@ -1,7 +1,7 @@
 import type { Artifact, Turn } from "@/shared/contracts";
 
 export type LocalSession = { turns: Turn[]; artifacts: Artifact[]; locale: "en" | "fil" };
-const dbName = "signal-vessel-local";
+const dbName = "gigi-local";
 
 function openDatabase(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
